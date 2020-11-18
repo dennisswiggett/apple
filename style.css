@@ -1,0 +1,769 @@
+body {
+    background: black;
+}
+
+.border-cust {
+    border: 1px solid rgba(128, 128, 128, 0.235);
+    width: 68%;
+}
+
+.border-cust2 {
+    border: 1px solid rgba(128, 128, 128, 0.235);
+    width: 68%;
+    margin-bottom: 50px;
+}
+
+/* Navbar */
+.nav-col {
+    word-spacing: 71px;
+    padding: 10px 0px;
+}
+
+.selected {
+    color: grey !important;
+    outline: none;
+}
+
+.selected:hover {
+    text-decoration: none;
+}
+
+.customNav-link {
+    color: lightgrey;
+    font-size: 14px;
+    font-weight: 250;
+    outline: none;
+}
+
+.customNav-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.customNav-link-i {
+    color: lightgrey;
+    font-size: 20px;
+    font-weight: 100;
+    outline: none;
+}
+
+.customNav-link-i:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Section 1 */
+.section1 {
+    background: rgb(21, 21, 22);
+    padding: 0px 155px 0px 132px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.276);
+}
+
+.sect1-col1-text {
+    color: rgb(235, 235, 235);
+    font-size: 21.5px;
+    margin-top: 13px;
+}
+
+.sect1-col3-div {
+    margin-top: 18px;
+    font-size: 12px;
+    word-spacing: 20px;
+}
+
+.sect1-overview-link:hover {
+    text-decoration: none;
+}
+
+.sect1-overview {
+    color: lightgrey;
+    font-weight: 300;
+    outline: none;
+}
+
+.sect1-overview:hover {
+    color: rgb(18, 124, 229);
+}
+
+.sect1-techspec {
+    word-spacing: 0px;
+    color: grey;
+}
+
+.sect1-buy-button {
+    padding: 3px 13px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background: rgb(18, 124, 229);
+    font-weight: 300;
+    outline: none;
+}
+
+.sect1-buy-button:hover {
+    background: rgb(36, 131, 227);
+}
+
+
+/* Section 2 */
+.section2 {
+    padding: 80px 150px;
+}
+
+.m1-button {
+    padding: 20px 71px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 5px;
+    outline: none;
+    font-size: 17px;
+}
+
+.m1-button:hover {
+    outline: none;
+}
+
+.intel-button {
+    padding: 20px 71px;
+    background: none;
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 5px;
+    margin: 0px 5px;
+    outline: none;
+    font-size: 17px;
+}
+
+.intel-button:hover {
+    outline: none;
+}
+
+
+/* Section 3 */
+.section3 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect3-col2 {
+    margin-left: 35px;
+}
+
+.cols-text {
+    color: white;
+    font-size: 25px;
+}
+
+.sect3-col2-img {
+    margin-top: -22px;
+}
+
+/* Section 4 */
+.section4 {
+    padding: 50px 80px 30px 80px;
+}
+
+.price {
+    margin-top: 10px;
+    color: grey;
+    margin-left: 90px;
+}
+
+/* Section 5 */
+.section5 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect5-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+.sect5-para-2 {
+    line-height: 1.5;
+}
+
+.retina-display {
+    color: white;
+}
+
+.sect5-ul {
+    padding: 0px 18px;
+    line-height: 2;
+}
+
+.sect5-li {
+    padding: 3px 0px;
+}
+
+/* Section 6 */
+.section6 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect6-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+.m1-chip {
+    font-size: 32px;
+    color: white;
+}
+
+/* Section 7 */
+.section7 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect7-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+#battery_power {
+    white-space: nowrap;
+}
+
+.sup {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Section 8 */
+.section8 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect8-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1;
+}
+
+.sect8-8gb {
+    font-size: 35px;
+    color: white;
+}
+
+.sect8-config {
+    color: white;
+}
+
+/* Section 9 */
+.section9 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect9-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1;
+}
+
+.sect9-gb {
+    font-size: 35px;
+    color: white;
+}
+
+.sect9-config {
+    color: white;
+}
+
+/* Section 10 */
+.section10 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect10-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1;
+    margin-top: 8px;
+}
+
+#charging_expansion {
+    white-space: nowrap;
+}
+
+.charge_exp {
+    color: white;
+    font-size: 17px;
+}
+
+.image2 {
+    margin-left: -40px;
+}
+
+/* Section 11 */
+.section11 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect11-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1;
+    margin-top: 8px;
+}
+
+#keyboard_trackpad {
+    white-space: nowrap;
+}
+
+.key_track {
+    color: white;
+    font-size: 17px;
+}
+
+.key_track_para {
+    line-height: 1.7;
+}
+
+.image3 {
+    margin-left: -30px;
+}
+
+/* Section 12 */
+.section12 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect12-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+.wifi {
+    color: white;
+}
+
+.bluetooth {
+    color: white;
+}
+
+/* Section 13 */
+.section13 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect13-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1;
+    margin-top: 14px;
+}
+
+/* Section 14 */
+.section14 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect14-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+#video-support {
+    white-space: nowrap;
+}
+
+.sect14-para-1 {
+    color: white;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+/* Section 15 */
+.section15 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect15-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+/* Section 16 */
+.section16 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect16-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1.3;
+    margin-top: 5px;
+}
+
+.sect16-before-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Section 17 */
+.section17 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect17-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1.3;
+    margin-top: 5px;
+}
+
+.sect17-before-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#size_weight {
+    white-space: nowrap;
+}
+
+.sup-sect17 {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.image-4 {
+    margin-left: -25px;
+}
+
+/* Section 18 */
+.section18 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect18-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1.3;
+    margin-top: 5px;
+}
+
+#operating_system {
+    white-space: nowrap;
+}
+
+.sect18-para-1 {
+    color: white;
+}
+
+.sect18-para-2 {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.i-angle-right {
+    font-size: 15px;
+}
+
+.learn-more {
+    color: rgb(18, 124, 229)
+}
+
+.learn-more:hover {
+    color: rgb(18, 124, 229)
+}
+
+/* Section 19 */
+.section19 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect19-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1.3;
+    margin-top: 5px;
+}
+
+.sect19-para-1 {
+    color: white;
+    margin-top: 75px;
+    font-size: 18px;
+}
+
+.sect19-para-2 {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.learn-more {
+    color: rgb(18, 124, 229)
+}
+
+.learn-more:hover {
+    color: rgb(18, 124, 229)
+}
+
+.sect19-newcol {
+    line-height: 1;
+}
+
+/* Section 20 */
+.section20 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect20-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1.3;
+    margin-top: 5px;
+}
+
+#apps {
+    white-space: nowrap;
+}
+
+.image-5 {
+    margin-left: -25px;
+}
+
+/* Section 21 */
+.section21 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect21-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1.3;
+    margin-top: 5px;
+}
+
+.image-6 {
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+/* Section 22 */
+.section22 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect22-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1.3;
+    margin-top: 5px;
+}
+
+#limited_warranty {
+    white-space: nowrap;
+}
+
+.learn-more {
+    color: rgb(18, 124, 229)
+}
+
+.learn-more:hover {
+    color: rgb(18, 124, 229)
+}
+
+#applecare {
+    color: rgb(18, 124, 229)
+}
+
+#applecare:hover {
+    color: rgb(18, 124, 229)
+}
+
+.warranty {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* Section 23 */
+.section23 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect23-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1.3;
+    margin-top: 5px;
+}
+
+#order {
+    white-space: nowrap;
+}
+
+.sect23-div2 {
+    margin-top: 40px;
+    line-height: .8;
+}
+
+/* Section 24 */
+.section24 {
+    padding: 50px 100px 30px 100px;
+}
+
+.sect24-col-main {
+    background: rgb(29, 30, 32);
+    color: grey;
+    padding: 50px 70px 0px 70px;
+    border-top-left-radius: 20px;
+}
+
+.sect24-col-main2 {
+    background: rgb(29, 30, 32);
+    color: grey;
+    padding: 50px 70px 0px 70px;
+    border-top-right-radius: 20px;
+}
+
+.sect24-col-main3 {
+    background: rgb(29, 30, 32);
+    color: grey;
+    padding: 0px 70px 50px 70px;
+    border-bottom-left-radius: 20px;
+}
+
+.sect24-col-main4 {
+    background: rgb(29, 30, 32);
+    color: grey;
+    padding: 0px 70px 50px 70px;
+    border-bottom-right-radius: 20px;
+}
+
+.sect24-title {
+    color: white;
+    font-size: 30px;
+}
+
+.sect24-apple {
+    font-size: 30px;
+    color: white;
+    margin-top: 5px;
+}
+
+.sup-sect24 {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.sect24-para1 {
+    color: white;
+}
+
+.sect24-para2 {
+    color: white;
+    font-size: 18px;
+}
+
+.sect24-title-small {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.sect24-ul {
+    margin-left: -25px;
+}
+
+.sect24-li {
+    font-size: 17px;
+}
+
+/* Section 25 */
+.section25 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect25-para {
+    color: grey;
+    margin-left: 90px;
+    line-height: 1.3;
+    margin-top: 5px;
+}
+
+.sect25-title {
+    color: white;
+    font-size: 18px;
+}
+
+.sect25-div1 {
+    line-height: 1;
+}
+
+.sect25-div2 {
+    line-height: 1;
+}
+
+.sect26-col {
+    padding: 100px 0px;
+}
+
+.sect26-title {
+    color: white;
+    font-size: 48px;
+}
+
+.thunderbolt3-2 {
+    line-height: 1.5;
+}
+
+.shop-now {
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.compare {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.image-7 {
+    display: block;
+    margin-left: 280px;
+}
+
+/* Section 27 */
+.section27 {
+    padding: 50px 80px 30px 80px;
+}
+
+.sect27-div {
+    line-height: 1.1;
+}
+
+.sect27-para1 {
+    color: white;
+    font-size: 20px;
+}
+
+.sect27-para2 {
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.sect27-learnmore {
+    font-size: 14px;
+}
+
+.sect27-links:hover {
+    text-decoration: none;
+}
